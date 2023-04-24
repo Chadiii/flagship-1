@@ -140,7 +140,7 @@ func SetViper() {
 	viper.GetViper().Set("client_id", "client_id")
 	viper.GetViper().Set("client_secret", "client_secret")
 	viper.GetViper().Set("token", "token")
-	viper.GetViper().Set("output_format", "json")
+	viper.GetViper().Set("output_format", "table")
 }
 
 func ViperNotSet(t *testing.T) {
